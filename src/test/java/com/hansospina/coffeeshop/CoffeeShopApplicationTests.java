@@ -5,9 +5,12 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ * @author <a href="mailto:hansospina@gmail.com">Hans Ospina</a>
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CoffeeshopApplicationTests {
+public class CoffeeShopApplicationTests {
 
     @Test
     public void contextLoads() {
