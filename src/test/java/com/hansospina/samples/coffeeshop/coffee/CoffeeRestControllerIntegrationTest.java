@@ -39,9 +39,9 @@ public class CoffeeRestControllerIntegrationTest {
 
         Coffee tinto = new Coffee(id, CoffeeType.SOFT, CoffeeOrigin.ANTIOQUIA, "Tinto");
 
-        List<Coffee> allEmployees = Collections.singletonList(tinto);
+        List<Coffee> allCoffees = Collections.singletonList(tinto);
 
-        given(service.list()).willReturn(allEmployees);
+        given(service.list()).willReturn(allCoffees);
 
         mvc.perform(get("/api/coffee/v1/")
                 .contentType(MediaType.APPLICATION_JSON))
@@ -49,6 +49,7 @@ public class CoffeeRestControllerIntegrationTest {
                 .andExpect(jsonPath("$", hasSize(1)))
                 .andExpect(jsonPath("$[0].name", is(tinto.getName())));
     }
+
 
 
 }
