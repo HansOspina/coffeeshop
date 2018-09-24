@@ -21,6 +21,10 @@ public class Coffee {
 
     private Date created;
 
+
+    public Coffee() {
+    }
+
     public Coffee(String id, CoffeeType type, CoffeeOrigin origin, String name) {
         this.id = id;
         this.type = type;

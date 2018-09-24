@@ -39,7 +39,8 @@ class CoffeeDataStore {
     }
 
     static Coffee update(String id, Coffee coffee) {
-        return dataStore.put(id, coffee);
+        dataStore.put(id, coffee);
+        return dataStore.get(id);
     }
 
     static Coffee delete(String id) {
