@@ -24,6 +24,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+/**
+ * @author <a href="mailto:hansospina@gmail.com">Hans Ospina</a>
+ */
 @RunWith(SpringRunner.class)
 @WebMvcTest(CoffeeController.class)
 public class CoffeeRestControllerIntegrationTest {
