@@ -1,4 +1,4 @@
-package com.hansospina.coffeeshop.coffee;
+package com.hansospina.samples.coffeeshop.coffee;
 
 import java.util.*;
 import java.util.stream.Collectors;

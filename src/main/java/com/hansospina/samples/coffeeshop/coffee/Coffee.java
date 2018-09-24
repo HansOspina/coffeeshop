@@ -1,15 +1,13 @@
-package com.hansospina.coffeeshop.coffee;
+package com.hansospina.samples.coffeeshop.coffee;
 
 
 import com.fasterxml.jackson.annotation.JsonRootName;
-import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 /**
  * @author <a href="mailto:hansospina@gmail.com">Hans Ospina</a>
  */
-@Component
 @JsonRootName("Product")
 public class Coffee {
 
@@ -22,10 +20,6 @@ public class Coffee {
     private String name;
 
     private Date created;
-
-
-    public Coffee() {
-    }
 
     public Coffee(String id, CoffeeType type, CoffeeOrigin origin, String name) {
         this.id = id;
@@ -74,6 +68,4 @@ public class Coffee {
     public void setCreated(Date created) {
         this.created = created;
     }
-
-
 }

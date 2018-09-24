@@ -1,4 +1,4 @@
-package com.hansospina.coffeeshop;
+package com.hansospina.samples.coffeeshop;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
