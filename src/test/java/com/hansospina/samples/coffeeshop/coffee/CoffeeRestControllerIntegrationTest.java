@@ -32,7 +32,7 @@ public class CoffeeRestControllerIntegrationTest {
 
 
     @Test
-    public void givenEmployees_whenGetEmployees_thenReturnJsonArray()
+    public void givenCoffees_whenGetCoffees_thenReturnJsonArray()
             throws Exception {
 
         String id = UUID.randomUUID().toString();
