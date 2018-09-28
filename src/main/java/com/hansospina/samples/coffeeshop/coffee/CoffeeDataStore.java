@@ -21,10 +21,10 @@ class CoffeeDataStore {
         dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.MILD, CoffeeOrigin.TOLIMA, "Café Tolimense"));
 
         tmpId = UUID.randomUUID().toString();
-        dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.MILD, CoffeeOrigin.TOLIMA, "Café del Huila"));
+        dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.MILD, CoffeeOrigin.HUILA, "Café del Huila"));
 
         tmpId = UUID.randomUUID().toString();
-        dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.MILD, CoffeeOrigin.TOLIMA, "Café de Barranquilla"));
+        dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.MILD, CoffeeOrigin.QUILLA, "Café de Barranquilla"));
 
     }
 
