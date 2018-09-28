@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * @author <a href="mailto:hansospina@gmail.com">Hans Ospina</a>
  */
 public enum CoffeeOrigin {
-    ANTIOQUIA, MAGDALENA, TOLIMA;
+    ANTIOQUIA, MAGDALENA, TOLIMA, HUILA, QUILLA;
 
 
     private static Map<String, CoffeeOrigin> mapped = Arrays.stream(values()).collect(Collectors.toMap(
