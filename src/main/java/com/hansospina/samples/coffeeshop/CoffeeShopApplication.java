@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 /**
+ *
  * @author <a href="mailto:hansospina@gmail.com">Hans Ospina</a>
  */
 @SpringBootApplication
