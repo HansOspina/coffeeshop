@@ -14,7 +14,7 @@ import static org.junit.Assert.assertNotNull;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CoffeeServiceTest {
+public class CoffeeServiceUnitTest {
 
     private static final String tmpName = "Tinto Campesino";
 
