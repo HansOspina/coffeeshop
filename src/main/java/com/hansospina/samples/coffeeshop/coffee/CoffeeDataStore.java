@@ -20,6 +20,12 @@ class CoffeeDataStore {
         tmpId = UUID.randomUUID().toString();
         dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.MILD, CoffeeOrigin.TOLIMA, "Café Tolimense"));
 
+        tmpId = UUID.randomUUID().toString();
+        dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.STRONG, CoffeeOrigin.MAGDALENA, "Café de la Esquina"));
+
+        tmpId = UUID.randomUUID().toString();
+        dataStore.put(tmpId, new Coffee(tmpId, CoffeeType.SOFT, CoffeeOrigin.MAGDALENA, "Café Tinto"));
+
     }
 
 
